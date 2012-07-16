@@ -181,7 +181,8 @@ You signed off succesfully from the '%s' event.",
 Someone signed off from the '%s' event. You are moved from the waiting list to attending.",	
 	
 		'event_manager:event:registration:notification:program:linktext' => 'To view the program click on this link',
-	
+		
+		'event_manager:event:export' => 'export to iCal',
 		'event_manager:event:rsvp' => 'RSVP',
 		'event_manager:event:editevent' => 'Edit event',
 		'event_manager:event:deleteevent' => 'Delete event',
