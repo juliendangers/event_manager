@@ -6,10 +6,9 @@
 	
 	$context = elgg_get_context();
 	
-	if($event->canEdit()) {
-		if($tools = elgg_view("event_manager/event/tools", $vars)){
-			$options[] = $tools;
-		}	
+	
+	if($tools = elgg_view("event_manager/event/tools", $vars)){
+		$options[] = $tools;
 	}
 	
 	if(elgg_is_logged_in()){
